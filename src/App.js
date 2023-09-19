@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Slider from "./Slider";
+import ImageOne from "./assets/image1.jpg";
+import ImageTwo from "./assets/image2.jpg";
+import ImageThree from "./assets/image3.jpg";
+import Hero from "./Pages/Hero";
+const images = [{ ImageOne }, { ImageTwo }, { ImageThree }];
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  return <Hero />;
+};
 
 export default App;
