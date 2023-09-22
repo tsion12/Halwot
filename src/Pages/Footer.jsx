@@ -7,7 +7,7 @@ import { PiTiktokLogoThin } from "react-icons/pi";
 const Footer = () => {
   return (
     <div>
-      <footer class="bg-white dark:bg-gray-900 border border-t-orange-300">
+      <footer class="bg-gray-900 border border-t-orange-300 text-white">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div class="md:flex md:gap-32">
             <div class="mb-6 md:mb-0">
@@ -18,12 +18,12 @@ const Footer = () => {
                 </span>
               </a>
             </div>
-            <div class="grid grid-cols-3 md:gap-3 sm:gap-6 sm:grid-cols-3">
+            <div class="grid grid-cols-3 md:gap-3 sm:gap-6 sm:grid-cols-3 text-white">
               <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white font-serif">
                   Connect with us
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <ul class="text-gray-300 font-serif">
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
                       Halwot Emmanuel United Church, Addis Ababa, Ethiopia
@@ -41,11 +41,11 @@ const Footer = () => {
               </div>
               <div>
                 <h2
-                  class="mb-6 text-sm font-semibold text-gray-900 font-serif
+                  class="mb-6 text-sm font-semibold text-white font-serif
                  dark:text-white">
                   Quick Links
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-serif text-sm">
+                <ul class="text-gray-300 dark:text-gray-400 font-serif text-sm">
                   <li class="mb-2">
                     <a href="#" class="hover:underline">
                       About
@@ -74,10 +74,10 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h2 class="mb-6 text-sm font-serif font-bold text-gray-900  dark:text-white">
+                <h2 class="mb-6 text-sm font-serif font-bold text-white">
                   Follow us
                 </h2>
-                <ul class="text-gray-500 dark:text-gray-400 ">
+                <ul class="text-gray-300 dark:text-gray-400 ">
                   <li class="mb-4">
                     <a href="#" class="hover:underline font-serif ">
                       Facebook

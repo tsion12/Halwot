@@ -133,7 +133,7 @@ const Hero = () => {
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
               <a href="#" class="flex items-center">
                 <img src={Logo} class="h-8 mr-3" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
                   Halwot
                 </span>
               </a>
@@ -182,21 +182,21 @@ const Hero = () => {
                   <li>
                     <a
                       href="#"
-                      class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                      class="block py-2 pl-3 pr-4 text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                       About
                     </a>
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                      class="block py-2 pl-3 pr-4 text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                       Services
                     </a>
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                      class="block py-2 pl-3 pr-4 text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                       Contact
                     </a>
                   </li>
@@ -207,17 +207,16 @@ const Hero = () => {
           {/* Center */}
           <div className="mt-20 flex flex-col justify-center items-center text-white">
             {" "}
-            <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+            <h1 class="mb-4 text-3xl font-extrabold text-gray-300 dark:text-white md:text-5xl lg:text-6xl">
               <span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-100">
                 Halwot
               </span>{" "}
               Emanuel Church
             </h1>
-            <p class=" max-w-3xl text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
-              praesentium dicta error exercitationem omnis delectus repellendus
-              voluptatem tempore distinctio provident sapiente officiis illo
-              dignissimos amet cupiditate eum cumque, fuga veritatis!
+            <p class=" max-w-3xl text-lg font-normal text-gray-200 lg:text-lg dark:text-gray-400 text-center font-serif">
+              ዳዊትም ልጁን ሰሎሞንን። ጠንክር፥ አይዞህ፥ አድርገውም፤ አምላኬ እግዚአብሔር አምላክ ከአንተ ጋር ነውና
+              አትፍራ፥ አትደንግጥም፤ ለእግዚአብሔርም ቤት አገልግሎት የሚሆነው ሥራ ሁሉ እስኪፈጸም ድረስ እርሱ
+              አይተውህም፥ አይጥልህምም። <br/> <span className="text-xs">መጽሐፈ ዜና መዋዕል ቀዳማዊ 28:20</span>
             </p>
           </div>
         </div>

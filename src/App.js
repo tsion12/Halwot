@@ -8,7 +8,7 @@ import RegisterForm from "./Pages/RegisterForm";
 const images = [{ ImageOne }, { ImageTwo }, { ImageThree }];
 
 const App = () => {
-  return <RegisterForm />;
+  return <Hero />;
 };
 
 export default App;
