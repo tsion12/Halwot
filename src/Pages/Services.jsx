@@ -1,8 +1,8 @@
 import React from "react";
 
-import ImageTwo from "../assets/Image5.jpg";
-import ImageThree from "../assets/image4.jpg";
-import ImageFour from "../assets/image6.jpg";
+import ImageTwo from "../assets/mezge.jpg";
+import ImageThree from "../assets/surafel.jpg";
+import ImageFour from "../assets/tile.jpg";
 const Services = () => {
   return (
     <div className="mt-8 flex flex-col space-x-2 items-center justify-center">
@@ -14,12 +14,12 @@ const Services = () => {
             <img
               src={ImageTwo}
               alt=""
-              class="object-fit rounded-xl h-[500px]  md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
+              class="object-fit rounded-xl h-[600px]  md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
             />
 
             <div class="p-6 md:p-12">
               <h2 class="font-serif text-xl font-bold text-center  md:text-left">
-                Prayer Groups
+                Prayer
               </h2>
 
               <p class="max-w-xs my-4 text-xs leading-5 tracking-wide text-center  md:text-left">
@@ -48,12 +48,12 @@ const Services = () => {
             <img
               src={ImageThree}
               alt=""
-              class="object-fit rounded-xl h-[500px]  md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
+              class="object-fit rounded-xl h-[600px]  md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
             />
 
             <div class="p-6 md:p-12">
               <h2 class="font-serif text-xl font-bold text-center  md:text-left">
-                Get Involved
+                Worship
               </h2>
 
               <p class="max-w-xs my-4 text-xs leading-5 tracking-wide text-center  md:text-left">
@@ -82,12 +82,12 @@ const Services = () => {
             <img
               src={ImageFour}
               alt=""
-              class="object-fit rounded-xl h-[500px]  md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
+              class="object-fit rounded-xl h-[600px]  md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
             />
 
             <div class="p-6 md:p-12">
               <h2 class="font-serif text-xl font-bold text-center  md:text-left">
-                Giving Back
+                Teachings
               </h2>
 
               <p class="max-w-xs my-4 text-xs leading-5 tracking-wide text-center  md:text-left">

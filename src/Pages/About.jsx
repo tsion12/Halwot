@@ -1,6 +1,6 @@
 import React from "react";
-import ImageTwo from "../assets/Image5.jpg";
-import ImageThree from "../assets/image4.jpg";
+import ImageTwo from "../assets/por-3.jpeg";
+import ImageThree from "../assets/services-1.jpeg";
 import ImageFour from "../assets/image6.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
@@ -21,7 +21,7 @@ const About = () => {
         <div className="flex justify-center space-x-6">
           <div>
             <img
-              src={ImageTwo}
+              src={ImageFour}
               alt=""
               className="w-[300px] object-fit rounded-3xl h-[400px] shadow-lg   transform hover:scale-105 hover:rounded-xl duration-200 mt-10"
             />
@@ -30,7 +30,8 @@ const About = () => {
           <div className=" flex flex-col">
             <button
               type="button"
-              class="mt-10 focus:outline-none text-white shadow-lg    bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-6 dark:focus:ring-orange-900">
+              class="mt-10 focus:outline-none text-white shadow-lg    bg-orange-400 hover:bg-orange-500 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-6 dark:focus:ring-orange-900"
+            >
               Read More
             </button>
             <img
@@ -41,7 +42,7 @@ const About = () => {
           </div>
           <div>
             <img
-              src={ImageTwo}
+              src={ImageThree}
               alt=""
               className="w-[300px]  object-fit rounded-3xl h-[400px] shadow-lg    transform hover:scale-105 hover:rounded-xl duration-200 mt-10"
             />
