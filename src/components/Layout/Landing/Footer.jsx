@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/halwot_logo.png";
+import Logo from "../../../assets/halwot_logo.png";
 import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { PiTiktokLogoThin } from "react-icons/pi";
@@ -13,6 +13,8 @@ const Footer = () => {
             <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center">
                 <img src={Logo} class="h-8 mr-3" alt="FlowBite Logo" />
+
+                
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                   Halwot
                 </span>
